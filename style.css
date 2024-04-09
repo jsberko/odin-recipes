@@ -11,9 +11,14 @@ ul {
     margin: 0;
 }
 
+h2 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
 .class-for-page {
     font-family: "Kanit", sans-serif;
-    background-image: url("../images/background-image.jpg");
+    background-image: url("./images/page-background.jpg");
     background-color: whitesmoke;
     width: 800px;
     margin: 0 auto;
@@ -22,57 +27,72 @@ ul {
 
 .recipe-name {
     border: 2px solid black;
-    padding: 40px 0px 40px 0;
+    padding: 20px 0px 20px 0;
     border-radius: 24px;
+    background-color: rgb(255, 255, 255, 0.7);
 }
 
 .recipe-image {
-    margin: 20px auto 0px;
+    margin: 0px auto 0px;
     display: block;
     border-radius: 24px;
 }
 
-.credit {
-    color: red;
+.credit a {
+    color: whitesmoke;
+    display: block;
+    margin-top: -20px;
+    text-align: center;
 }
 
 .page-description {
-    background-color: rgb(159, 250, 212);
+    /* background-color: rgb(159, 250, 212); */
+    background-color: rgb(255, 255, 255, 0.7);
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
     padding: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     border-radius: 24px;
 }
 
 .page-description:hover {
-    background-color: rgb(159, 250, 212, 0.5);
+    background-color: rgb(255, 255, 255);
 }
 
 .page-ingredients {
-    background-color: rgb(239, 134, 91);
+    /* background-color: rgb(239, 134, 91); */
+    background-color: rgb(255, 255, 255, 0.7);
+    border: 2px solid black;
     padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
     border-radius: 24px;
     line-height: 2;
 }
 
 .page-ingredients:hover {
-    background-color: rgb(239, 134, 91, 0.7);
+    /* background-color: rgb(239, 134, 91, 0.7); */
+    background-color: rgb(255, 255, 255);
 }
 
 
 .page-steps {
-    background-color: rgb(111, 148, 230);
+    /* background-color: rgb(111, 148, 230); */
+    background-color: rgb(255, 255, 255, 0.7);
     padding: 20px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 20px;
     border-radius: 24px;
     line-height: 2;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .page-steps:hover {
-    background-color: rgb(111, 148, 230, 0.7);
+    background-color: rgb(255, 255, 255);
 }
 
 .page-steps li {
