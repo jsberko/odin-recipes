@@ -2,14 +2,79 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* border: 2px solid green; */
 }
 
-ul {
-    font-size: 1em;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+/* CSS FOR INDEX */
+
+.class-for-index {
+    font-family: "Kanit", sans-serif;
+    width: 100%;
 }
+
+.index-header {
+    /* background-color: blue; */
+    padding: 10px;
+    width: 100%;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    position: fixed;
+}
+
+.index-title {
+    /* background-color: red; */
+    padding: 10px;
+    display: inline-block;
+    width: 40%;
+    font-size: 1.5em;
+}
+
+.index-icon {
+    /* background-color: red; */
+    padding: 10px;
+    display: inline-block;
+}
+
+.index-icon img {
+    width: 175px;
+}
+
+.index-tagline {
+    /* background-color: red; */
+    padding: 10px;
+    display: inline-block;
+    width: 40%;
+}
+
+.index-tagline h1 {
+    font-weight: 100;
+    text-align: right;
+    font-size: 2em;
+}
+
+.index-body {
+    width: 100%;
+    height: 100%px;
+    /* background-image: url("./images/page-background.jpg"); */
+    background-color: whitesmoke;
+}
+
+.recipe-card {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border-radius: 24px;
+    border: 2px solid black;
+}
+
+.tri-tip {}
+
+
+/* CSS FOR PAGES */
 
 h2 {
     margin-bottom: 10px;
@@ -97,23 +162,4 @@ h2 {
 
 .page-steps li {
     list-style-type: none;
-}
-
-h1 {
-    font-size: 3.5em;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.container {
-    width: 600px;
-    margin: 40px auto;
-    text-align: center;
-    line-height: 1.5;
-}
-
-.odin {
-    width: 600px;
-    display: block;
-    margin: 0 auto;
 }
