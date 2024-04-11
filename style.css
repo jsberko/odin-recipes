@@ -2,10 +2,36 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 2px solid green; */
+    border: 2px solid green;
 }
 
 /* CSS FOR INDEX */
+
+.play {
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.float {
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    margin: 1em;
+}
+
+.text {
+    column-count: 3;
+    column-gap: 1em;
+}
 
 .class-for-index {
     font-family: "Kanit", sans-serif;
@@ -30,6 +56,8 @@
     display: inline-block;
     width: 40%;
     font-size: 1.5em;
+    display: flex;
+    align-items: center;
 }
 
 .index-icon {
@@ -45,8 +73,10 @@
 .index-tagline {
     /* background-color: red; */
     padding: 10px;
-    display: inline-block;
     width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
 .index-tagline h1 {
@@ -60,6 +90,7 @@
     height: 100%px;
     /* background-image: url("./images/page-background.jpg"); */
     background-color: whitesmoke;
+    margin-top: 155px;
 }
 
 .recipe-card {
@@ -69,6 +100,7 @@
     background-color: whitesmoke;
     border-radius: 24px;
     border: 2px solid black;
+    display: none;
 }
 
 .tri-tip {}
@@ -105,7 +137,6 @@ h2 {
 
 .credit a {
     color: whitesmoke;
-    display: block;
     margin-top: -20px;
     text-align: center;
 }
