@@ -3,7 +3,6 @@
     font-family: "Kanit", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(18, 24, 38);
     /* border: 2px solid green; */
 }
 
@@ -11,6 +10,7 @@
 
 .header-container {
     width: 100%;
+    height: 128.5px;
     display: flex;
     justify-content: space-between;
     background-color: rgb(18, 24, 38);
@@ -48,7 +48,7 @@
 .nav {
     display: flex;
     align-items: flex-end;
-    padding: 20px;
+    padding: 10px;
 }
 
 .nav div {
@@ -63,7 +63,7 @@
 
 .nav a:hover {
     color: rgb(122, 92, 79);
-    font-style: italic;
+    transition-duration: 0.5s;
 }
 
 .index-body-container {
@@ -88,88 +88,43 @@
 
 /* CSS FOR PAGES */
 
-h2 {
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-
 .page-body-container {
-    /* background-image: url("./images/page-background.jpg"); */
-    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-container {
     width: 800px;
-    margin: 0 auto;
-    padding-top: 20px;
+    padding: 20px 20px;
 }
 
-.recipe-name {
-    border: 2px solid black;
-    padding: 20px 0px 20px 0;
-    border-radius: 24px;
-    background-color: rgb(255, 255, 255, 0.7);
+#tri-tip {
+    width: 760px;
 }
 
-.recipe-image {
-    margin: 0px auto 0px;
-    display: block;
-    border-radius: 24px;
-}
-
-.credit a {
-    color: whitesmoke;
-    margin-top: -20px;
-    text-align: center;
-}
-
-.page-description {
-    /* background-color: rgb(159, 250, 212); */
-    background-color: rgb(255, 255, 255, 0.7);
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    padding: 20px;
-    margin-top: 20px;
-    /* margin-bottom: 20px; */
-    border-radius: 24px;
-}
-
-.page-description:hover {
-    background-color: rgb(255, 255, 255);
-}
-
-.page-ingredients {
-    /* background-color: rgb(239, 134, 91); */
-    background-color: rgb(255, 255, 255, 0.7);
-    border: 2px solid black;
-    padding: 20px;
-    /* margin-top: 20px;
-    margin-bottom: 20px; */
-    border-radius: 24px;
-    line-height: 2;
-}
-
-.page-ingredients:hover {
-    /* background-color: rgb(239, 134, 91, 0.7); */
-    background-color: rgb(255, 255, 255);
-}
-
-
-.page-steps {
-    /* background-color: rgb(111, 148, 230); */
-    background-color: rgb(255, 255, 255, 0.7);
-    padding: 20px;
-    /* margin-top: 20px; */
-    margin-bottom: 20px;
-    border-radius: 24px;
-    line-height: 2;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-}
-
-.page-steps:hover {
-    background-color: rgb(255, 255, 255);
-}
-
-.page-steps li {
+.recipe-ingredients ul {
     list-style-type: none;
+}
+
+.recipe-steps ol {
+    list-style-type: none;
+}
+
+.recipe-margin {
+    margin-bottom: 20px;
+}
+
+.recipe-spacing {
+    line-height: 2em;
+}
+
+.recipe-spacing h2 {
+    margin-bottom: 10px;
+}
+
+.recipe-spacing p,
+ul,
+ol {
+    padding: 10px;
 }
