@@ -18,6 +18,10 @@
     border-bottom: 2px solid rgb(210, 213, 218);
 }
 
+.push-right {
+    /* margin-left: auto; */
+}
+
 .logo-container {
     display: flex;
     color: rgb(210, 213, 218);
